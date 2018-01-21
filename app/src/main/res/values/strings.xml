@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Suspect Tracer</string>
+    <string name="title_activity_home">Map</string>
+    <string name="google_android_map_api_key"> AIzaSyBOeHiGeG-hmwyEJwRKngN1xhQvKGeW6P0 </string>
+</resources>

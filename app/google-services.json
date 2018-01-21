@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "675778943440",
+    "firebase_url": "https://suspect-tracer.firebaseio.com",
+    "project_id": "suspect-tracer",
+    "storage_bucket": "suspect-tracer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675778943440:android:e3b1f08e54d612d8",
+        "android_client_info": {
+          "package_name": "com.avishkarxyz.suspecttracer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675778943440-chas9rhjr19r95a14o0m3gcskj72mvp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvc_9naWqk18DGiS4XM2voEaVKBQAj6Y8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
