@@ -108,13 +108,13 @@ public class Home extends FragmentActivity implements OnMapReadyCallback {
         BitmapDescriptor icon = BitmapDescriptorFactory.fromResource(R.drawable.icon2);
         Location location = friend.RetrieveLast(1);
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(location.getLatitude(), location.getLongitude());
-        mMap.addMarker(new MarkerOptions().position(sydney).title(friend.Name(1)).icon(icon));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng india = new LatLng(location.getLatitude(), location.getLongitude());
+        mMap.addMarker(new MarkerOptions().position(india).title(friend.Name(1)).icon(icon));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(india));
         location = friend.RetrieveLast(2);
-        sydney = new LatLng(location.getLatitude(), location.getLongitude());
-        mMap.addMarker(new MarkerOptions().position(sydney).title(friend.Name(2)).icon(icon));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        india = new LatLng(location.getLatitude(), location.getLongitude());
+        mMap.addMarker(new MarkerOptions().position(india).title(friend.Name(2)).icon(icon));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(india));
     }
 
     public static final int MY_PERMISSIONS_REQUEST_LOCATION = 99;
